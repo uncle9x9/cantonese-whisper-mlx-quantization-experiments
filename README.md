@@ -1,6 +1,6 @@
 # Cantonese Whisper MLX quantization
 
-**Use 4-bit for Cantonese dictation.** On 23 private Cantonese and Cantonese–English reading takes, 4-bit produced the lowest normalized character error rate (CER) and the fastest median decoding. The 3-bit model saved memory and came close to 4-bit accuracy without the fixed prompt. The 2-bit model failed on these recordings in both prompt conditions.
+**4-bit is recommended for the tested Cantonese workflow.** On 23 private Cantonese and Cantonese–English reading takes, 4-bit produced the lowest normalized character error rate (CER) and the fastest median decoding. The 3-bit model saved memory and came close to 4-bit accuracy without the fixed prompt. The 2-bit model failed on these recordings in both prompt conditions. These results do not establish which variant is best for every speaker or language.
 
 | Hugging Face model | Weights | Normalized CER, prompted | Normalized CER, unprompted | Median decode, prompted |
 |---|---:|---:|---:|---:|
