@@ -1,0 +1,52 @@
+{
+  "experiment_date": "2026-11-12",
+  "source_repo": "khleeloo/whisper-large-v3-cantonese",
+  "source_revision": "f48a890f78c7b6acf723f25d8c81e232ac7469ca",
+  "source_shards": {
+    "model-00001-of-00002.safetensors": "8c197eaef302259da30a98d352cc02e4914939d7c89b544430c59b2c35b06c07",
+    "model-00002-of-00002.safetensors": "d244e327e00cfaae4823fb9911bbe7605dc99b67cf650d15ca2b125f4750f812"
+  },
+  "source_dtype": "float32",
+  "conversion_dtype": "float16",
+  "baseline_repo": "WinsonLi/whisper-large-v3-cantonese-mlx-4bit",
+  "baseline_revision": "14d1bf807b2509feaeb06cb62ead4593bebf4da7",
+  "baseline_weights_sha256": "7ea0e37f88ac3a4cdb00435a3418498ff707ba7b1cc45d1feb13bd82ec471374",
+  "upstream_converter_commit": "796f5b53cab69a3d48a44233ce21aae889e94a08",
+  "converter_sha256": "ac6f3f88c0e68038fa0812e9750138cbc2318b9e351ca127290bdbc114dc00dd",
+  "versions": {
+    "mlx": "0.32.2",
+    "mlx-whisper": "0.4.3",
+    "huggingface-hub": "1.30.0",
+    "numpy": "2.5.2",
+    "safetensors": "0.8.0",
+    "torch": "2.14.0"
+  },
+  "python": "3.13.7",
+  "machine": "arm64",
+  "macos": "27.2.1",
+  "hardware": "Apple M2 Max, 32 GiB unified memory",
+  "model_repo": "WinsonLi/whisper-large-v3-cantonese-mlx-2bit",
+  "quantization": {
+    "mode": "affine",
+    "bits": 2,
+    "group_size": 64
+  },
+  "output_files": {
+    "config.json": {
+      "bytes": 342,
+      "sha256": "a6e9dc9510a3e404048ab7b599efc99772cb05bdbd49fb5cd4eee4a6ef5d4d5a"
+    },
+    "weights.safetensors": {
+      "bytes": 494096295,
+      "sha256": "30860bfa47859ec4f903b9c263f7801b227b24d07360c238291e22b0a99f3832"
+    }
+  },
+  "validation": {
+    "reproduced_4bit_sha256": "7ea0e37f88ac3a4cdb00435a3418498ff707ba7b1cc45d1feb13bd82ec471374",
+    "reproduced_4bit_byte_identical": true,
+    "packed_quantized_matrices": 513,
+    "source_fp32_tensors": 1259,
+    "source_index_mapping_verified": true,
+    "all_packed_2bit_widths_half_4bit": true
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "samples": [
+    {
+      "id": "example-01",
+      "audio": "replace-with-your-recording.wav",
+      "reference": "REPLACE WITH YOUR TRANSCRIPT",
+      "group": "example",
+      "reference_kind": "human_verbatim"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "4bit": {
+    "runtime_logical_bytes": 877696320,
+    "runtime_allocated_bytes": 877703168,
+    "weight_bytes": 877695978,
+    "quantization": {
+      "group_size": 64,
+      "bits": 4
+    }
+  },
+  "2bit": {
+    "runtime_logical_bytes": 494096637,
+    "runtime_allocated_bytes": 503898112,
+    "weight_bytes": 494096295,
+    "quantization": {
+      "group_size": 64,
+      "bits": 2
+    }
+  },
+  "3bit": {
+    "runtime_logical_bytes": 685896796,
+    "runtime_allocated_bytes": 690868224,
+    "weight_bytes": 685896454,
+    "quantization": {
+      "group_size": 64,
+      "bits": 3
+    }
+  },
+  "2bit_group32": {
+    "runtime_logical_bytes": 589996679,
+    "runtime_allocated_bytes": 604073984,
+    "weight_bytes": 589996337,
+    "quantization": {
+      "group_size": 32,
+      "bits": 2
+    }
+  }
+}
